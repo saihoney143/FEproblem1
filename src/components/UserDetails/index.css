@@ -1,0 +1,107 @@
+.body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 70%;
+  }
+}
+.user-list-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  color: green;
+  align-self: center;
+}
+.user-list {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+.user-profile {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: blue;
+}
+.page-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: blueviolet;
+  border-width: 0px;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-button-container {
+  align-self: center;
+}
+.failure-image {
+  width: 30%;
+}
+.reload-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.search-element {
+  border: 1px solid skyblue;
+  outline: none;
+  height: 30px;
+  width: 30%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-icon {
+  border: 1px solid skyblue;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
